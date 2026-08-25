@@ -21,7 +21,7 @@ Sistema para um trabalho de uma disciplina na faculdade.
 | Guilherme Rocha Martins da Costa| 202602176131 | @link403020 | integrante |
 | Angeline Grate Moreira | 202602140179 | @angelinegm | integrante |
 | Arthur Henrique Oliveira Melo | 202508694841 | @Arthurhom | integrante |
-| Rafael Teixeira Alves | 2026xxxxx | @rafaelalves | integrante |
+| Isabella Oliveira Dias | 202602778068 | @isab246 | integrante |
 
 Cada integrante acrescenta a **sua própria linha** nesta tabela, pelo GitHub.
 Esse é o commit que registra a sua participação.
