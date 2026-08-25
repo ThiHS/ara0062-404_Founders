@@ -1,4 +1,4 @@
-# Equipe Delta — Escola Delta de Idiomas
+# Equipe 404_Founders 
 
 Projeto da disciplina **ARA0062 · Desenvolvimento Web em HTML5, CSS, JavaScript
 e PHP** — Centro Universitário Newton Paiva, 2026/2.
@@ -17,7 +17,7 @@ Sistema para um trabalho de uma disciplina na faculdade.
 | Nome completo | Matrícula | GitHub +| Papel |
 |---|---|---|---|
 | Thiago Hermont Siqueira | 202601758268 | @ThiHS | **líder** |
-| Carlos Eduardo Ramos | 2026xxxxx | @cadu-ramos | integrante |
+| Emanuella Pimentel Machado | 202602034441 | @EmanuellaPimentelM | integrante |
 | Daniela Prado Vieira | 2026xxxxx | @dani-prado | integrante |
 | Felipe Antunes Costa | 2026xxxxx | @felipeac | integrante |
 | Marina Souza Lima | 2026xxxxx | @marinaslima | integrante |
