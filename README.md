@@ -20,7 +20,7 @@ Sistema para um trabalho de uma disciplina na faculdade.
 | Emanuella Pimentel Machado | 202602034441 | @EmaPimentel | integrante |
 | Guilherme Rocha Martins da Costa| 202602176131 | @link403020 | integrante |
 | Angeline Grate Moreira | 202602140179 | @angelinegm | integrante |
-| Marina Souza Lima | 2026xxxxx | @marinaslima | integrante |
+| Arthur Henrique Oliveira Melo | 202508694841 | @Arthurhom | integrante |
 | Rafael Teixeira Alves | 2026xxxxx | @rafaelalves | integrante |
 
 Cada integrante acrescenta a **sua própria linha** nesta tabela, pelo GitHub.
