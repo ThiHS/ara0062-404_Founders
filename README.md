@@ -19,7 +19,7 @@ Sistema para um trabalho de uma disciplina na faculdade.
 | Thiago Hermont Siqueira | 202601758268 | @ThiHS | **líder** |
 | Emanuella Pimentel Machado | 202602034441 | @EmaPimentel | integrante |
 | Guilherme Rocha Martins da Costa| 202602176131 | @link403020 | integrante |
-| Felipe Antunes Costa | 2026xxxxx | @felipeac | integrante |
+| Angeline Grate Moreira | 202602140179 | @angelinegm | integrante |
 | Marina Souza Lima | 2026xxxxx | @marinaslima | integrante |
 | Rafael Teixeira Alves | 2026xxxxx | @rafaelalves | integrante |
 
