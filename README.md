@@ -8,7 +8,7 @@ e PHP** — Centro Universitário Newton Paiva, 2026/2.
 
 ## Tema do projeto
 
-Sistema para um trabalho de uma disciplina na faculdade.
+Site para unificação de informações de progressos academicos e trilha educacional. 
 
 ## Equipe
 
