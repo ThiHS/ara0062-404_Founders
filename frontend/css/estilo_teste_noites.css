@@ -1,0 +1,128 @@
+/* no TOPO do arquivo, antes de qualquer regra */
+* {
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+
+/* 
+    TEMA 1 - VERDE ESCURO FUNDO, AZUL SUPORTE
+    :root {
+   --fundo_cabecalho: #10170a; /* cabeçalho, títulos 
+   --texto_cabecalho: #6C8760; /* texto EM CIMA dela 
+   --card: #182538; /* cartões, conteúdo 
+   --texto_card: #85a9ae; /* textos do card, destaques
+   --apoio: #3a5272; /* botões, destaques 
+   --texto_apoio: #BFE0FF; /* botões, destaques 
+   --fundo: #000a02; /* o fundo da página 
+   --texto: #DEF8E2; /* a cor das letras  
+} */
+
+
+/*  TEMA 2 - AZUL ESCURO FUNDO, VERDE APOIO
+ :root {
+   --fundo_cabecalho: #05152b; /* cabeçalho, títulos 
+   --texto_cabecalho: #7992B5; /* texto EM CIMA dela 
+   --card: #233520; /* cartões, conteúdo 
+   --texto_card: #A9C1A5; /* textos do card, destaques 
+   --apoio: #475844; /* botões, destaques 
+   --texto_apoio: #A2CA9B; /* botões, destaques 
+   --fundo: #020D1C; /* o fundo da página 
+   --texto: #D4E6FF; /* a cor das letras 
+} */
+ 
+
+/*  TEMA 3 - ROXO ESCURO FUNDO, VERDE APOIO
+
+ :root {
+   --fundo_cabecalho: #201027; /* cabeçalho, títulos 
+   --texto_cabecalho: #AB96B4; /* texto EM CIMA dela 
+   --card: #233520; /* cartões, conteúdo 
+   --texto_card: #A9C1A5; /* textos do card, destaques 
+   --apoio: #475844; /* botões, destaques 
+   --texto_apoio: #A2CA9B; /* botões, destaques 
+   --fundo: #0D0415; /* o fundo da página 
+   --texto: #E5D8F0; /* a cor das letras 
+}
+ */
+
+/*  TEMA 4 - AZUL ESCURO FUNDO, AMARELO/MARROM APOIO 
+ :root {
+   --fundo_cabecalho: #05152b; /* cabeçalho, títulos 
+   --texto_cabecalho: #7992B5; /* texto EM CIMA dela 
+   --card: #756F33; /* cartões, conteúdo 
+   --texto_card: #D9D4AD; /* textos do card, destaques 
+   --apoio: #333229; /* botões, destaques 
+   --texto_apoio: #D9D4AD; /* botões, destaques 
+   --fundo: #020D1C; /* o fundo da página 
+   --texto: #D4E6FF; /* a cor das letras 
+} */
+
+/*  TEMA 5 - CINZA 
+ :root {
+   --fundo_cabecalho: #1b1b1c; /* cabeçalho, títulos 
+   --texto_cabecalho: #d1d6dd; /* texto EM CIMA dela 
+   --card: #2a2927; /* cartões, conteúdo 
+   --texto_card: #d1d6dd; /* textos do card, destaques 
+   --apoio: #41413f; /* botões, destaques 
+   --texto_apoio: #d1d6dd; /* botões, destaques 
+   --fundo: #111111; /* o fundo da página 
+   --texto: #d1d6dd; /* a cor das letras 
+} */
+
+/*  TEMA 6 - CINZA FUNDO E AZUL CARD
+ :root {
+   --fundo_cabecalho: #1b1b1c; /* cabeçalho, títulos 
+   --texto_cabecalho: #d1d6dd; /* texto EM CIMA dela 
+   --card: #11233c; /* cartões, conteúdo 
+   --texto_card: #c0d7f8; /* textos do card, destaques 
+   --apoio: #364E70; /* botões, destaques 
+   --texto_apoio: #d1d6dd; /* botões, destaques 
+   --fundo: #111111; /* o fundo da página 
+   --texto: #d1d6dd; /* a cor das letras 
+} */
+
+/*  TEMA 7 - CINZA CARD - FUNDO AZUL
+ :root {
+   --fundo_cabecalho: #05152b; /* cabeçalho, títulos 
+   --texto_cabecalho: #7992B5; /* texto EM CIMA dela 
+   --card: #2a2927; /* cartões, conteúdo 
+   --texto_card: #d1d6dd; /* textos do card, destaques 
+   --apoio: #41413f; /* botões, destaques 
+   --texto_apoio: #d1d6dd; /* botões, destaques 
+   --fundo: #020D1C; /* o fundo da página 
+   --texto: #D4E6FF; /* a cor das letras 
+} */
+
+
+.saira {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+
+
+
+/* testes */
+
+
+.principal{
+    background-color: var(--fundo_cabecalho);
+    color: var(--texto_cabecalho);
+}
+.apoio{
+    background-color: var(--apoio);
+    color: var(--texto_apoio);
+}
+.fundo_pag{
+    background-color: var(--fundo);
+    color: var(--texto);
+}
+.superficie{
+    background-color: var(--card);
+    color: var(--texto_card);
+}

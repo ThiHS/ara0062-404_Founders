@@ -4,16 +4,18 @@
     margin: 0%;
     border: 0%;
 }
-:root {
-   --fundo_cabecalho: #10170a; /* cabeçalho, títulos */
-   --texto_cabecalho: #6C8760; /* texto EM CIMA dela */
-   --card: #182538; /* cartões, conteúdo */
-   --texto_card: #85a9ae; /* textos do card, destaques*/
-   --apoio: #3a5272; /* botões, destaques */
-   --texto_apoio: #BFE0FF; /* botões, destaques */
-   --fundo: #000a02; /* o fundo da página */
-   --texto: #DEF8E2; /* a cor das letras */ 
-}
+/*  TEMA 2 - CINZA CARD - FUNDO AZUL*/
+ :root {
+   --fundo_cabecalho: #05152b; /* cabeçalho, títulos */
+   --texto_cabecalho: #7992B5; /* texto EM CIMA dela */
+   --card: #2a2927; /* cartões, conteúdo */
+   --texto_card: #d1d6dd; /* textos do card, destaques */
+   --apoio: #41413f; /* botões, destaques */
+   --texto_apoio: #d1d6dd; /* botões, destaques */
+   --fundo: #020D1C; /* o fundo da página */
+   --texto: #D4E6FF; /* a cor das letras */
+} 
+
 
 .saira {
     font-family: "Saira", sans-serif;
@@ -45,4 +47,3 @@
     background-color: var(--card);
     color: var(--texto_card);
 }
-
