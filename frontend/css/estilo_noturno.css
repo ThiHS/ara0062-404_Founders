@@ -4,14 +4,14 @@
     margin: 0%;
     border: 0%;
 }
-/*  TEMA 2 - CINZA CARD - FUNDO AZUL*/
+/*  TEMA 2 - AZUL ESCURO FUNDO, VERDE APOIO*/   
  :root {
    --fundo_cabecalho: #05152b; /* cabeçalho, títulos */
    --texto_cabecalho: #7992B5; /* texto EM CIMA dela */
-   --card: #2a2927; /* cartões, conteúdo */
-   --texto_card: #d1d6dd; /* textos do card, destaques */
-   --apoio: #41413f; /* botões, destaques */
-   --texto_apoio: #d1d6dd; /* botões, destaques */
+   --card: #233520; /* cartões, conteúdo */
+   --texto_card: #A9C1A5; /* textos do card, destaques */
+   --apoio: #42523F; /* botões, destaques */
+   --texto_apoio: #A2CA9B; /* botões, destaques */
    --fundo: #020D1C; /* o fundo da página */
    --texto: #D4E6FF; /* a cor das letras */
 } 
