@@ -48,7 +48,8 @@
 .principal{
     background-color: var(--fundo_cabecalho);
     color: var(--texto_cabecalho);
-    text-align: center;
+   
+   
 }
 .apoio{
     background-color: var(--apoio);
@@ -63,4 +64,17 @@
     color: var(--texto_card);
 }
 
+.logos{
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
 
+.miniL{
+    height: auto;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px; 
+}
