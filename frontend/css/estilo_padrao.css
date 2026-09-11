@@ -11,22 +11,36 @@
    --apoio: #2B6770; /* botões, destaques */
    --texto_apoio: #E4F0F2; /* botões, destaques */
    --fundo: #f6fdeb; /* o fundo da página */
-   --texto: #213303; /* a cor das letras */ 
+   --texto: #213303; /* a cor das letras */
 }
+
 
 .saira {
     font-family: "Saira", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight 100;
+    font-weight: 400;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
+    font-variation-settings: 100;
 }
 
+
+.inter-tight {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
 /* testes */
+
 
 .principal{
     background-color: var(--fundo_cabecalho);
     color: var(--texto_cabecalho);
+    text-align: center;
 }
 .apoio{
     background-color: var(--apoio);
@@ -40,4 +54,7 @@
     background-color: var(--card);
     color: var(--texto_card);
 }
+
+
+
 

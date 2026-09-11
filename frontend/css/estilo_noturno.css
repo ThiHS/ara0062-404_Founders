@@ -4,7 +4,7 @@
     margin: 0%;
     border: 0%;
 }
-/*  TEMA 2 - AZUL ESCURO FUNDO, VERDE APOIO*/   
+/*  TEMA 2 - AZUL ESCURO FUNDO, VERDE APOIO*/  
  :root {
    --fundo_cabecalho: #05152b; /* cabeçalho, títulos */
    --texto_cabecalho: #7992B5; /* texto EM CIMA dela */
@@ -14,7 +14,9 @@
    --texto_apoio: #A2CA9B; /* botões, destaques */
    --fundo: #020D1C; /* o fundo da página */
    --texto: #D4E6FF; /* a cor das letras */
-} 
+}
+
+
 
 
 .saira {
@@ -26,14 +28,27 @@
 }
 
 
+.inter-tight {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
 
 
 /* testes */
 
 
+
+
 .principal{
     background-color: var(--fundo_cabecalho);
     color: var(--texto_cabecalho);
+    text-align: center;
 }
 .apoio{
     background-color: var(--apoio);
@@ -47,3 +62,5 @@
     background-color: var(--card);
     color: var(--texto_card);
 }
+
+
