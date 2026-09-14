@@ -1,19 +1,110 @@
 /* no TOPO do arquivo, antes de qualquer regra */
+* {
+    padding: 0%;
+    margin: 0%;
+}
 :root {
-   --fundo_cabecalho: #ddeec4; /* cabeçalho, títulos */
-   --texto_cabecalho: #374D12; /* texto EM CIMA dela */
-   --card: #96b4c8; /* cartões, conteúdo */
-   --texto_card: #223C4D; /* textos do card, destaques*/
-   --apoio: #2B6770; /* botões, destaques */
-   --texto_apoio: #E4F0F2; /* botões, destaques */
-   --fundo: #f6fdeb; /* o fundo da página */
-   --texto: #213303; /* a cor das letras */ 
+    /* cores do tema claro */
+   --claro-fundo-cabecalho: #ddeec4; /* cabeçalho, títulos */
+   --claro-texto-cabecalho: #374D12; /* texto EM CIMA dela */
+
+   --claro-card: #96b4c8; /* cartões, conteúdo */
+   --claro-texto-card: #223C4D; /* textos do card, destaques*/
+
+   --claro-apoio: #2B6770; /* botões, destaques */
+   --claro-texto-apoio: #E4F0F2; /* botões, destaques */
+
+   --claro-fundo: #f6fdeb; /* o fundo da página */
+   --claro-texto: #213303; /* a cor das letras */
+
+   /* cores do tema escuro */
+   --escuro-fundo-cabecalho: #05152b; /* cabeçalho, títulos */
+   --escuro-texto-cabecalho: #7992B5; /* texto EM CIMA dela */
+
+   --escuro-card: #233520; /* cartões, conteúdo */
+   --escuro-texto-card: #A9C1A5; /* textos do card, destaques */
+
+   --escuro-apoio: #42523F; /* botões, destaques */
+   --escuro-texto-apoio: #A2CA9B; /* botões, destaques */
+
+   --escuro-fundo: #020D1C; /* o fundo da página */
+   --escuro-texto: #D4E6FF; /* a cor das letras */
 }
 
+
 .saira {
-  font-family: "Saira", sans-serif;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: 100;
+}
+
+
+.inter-tight {
+  font-family: "Inter Tight", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight 100;
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
+}
+
+
+
+/* testes claro */
+
+.principal-claro{
+    background-color: var(--claro-fundo-cabecalho);
+    color: var(--claro-texto-cabecalho);
+    text-align: center;
+}
+.apoio-claro{
+    background-color: var(--claro-apoio);
+    color: var(--claro-texto-apoio);
+}
+.fundo-pag-claro{
+    background-color: var(--claro-fundo);
+    color: var(--claro-texto);
+}
+.superficie-claro{
+    background-color: var(--claro-card);
+    color: var(--claro-texto-card);
+}
+
+
+/*testes escuro */
+
+.principal-escuro{
+    background-color: var(--escuro-fundo-cabecalho);
+    color: var(--escuro-texto-cabecalho);
+    text-align: center;
+}
+.apoio-escuro{
+    background-color: var(--escuro-apoio);
+    color: var(--escuro-texto-apoio);
+}
+.fundo-pag-escuro{
+    background-color: var(--escuro-fundo);
+    color: var(--escuro-texto);
+}
+.superficie-escuro{
+    background-color: var(--escuro-card);
+    color: var(--escuro-texto-card);
+}
+
+
+
+
+.logos{
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.miniL{
+    height: auto;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px; 
 }
