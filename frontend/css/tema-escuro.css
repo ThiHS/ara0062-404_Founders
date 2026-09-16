@@ -1,0 +1,26 @@
+/*
+--------------------------------------------------------------------------
+    1.  O :root e o tema — Emanuella Pimentel
+    2.  Tipografia — Emanuella Pimentel e Angeline Grate
+-------------------------------------------------------------------------- 
+*/
+:root {
+    /* cores do tema escuro */
+        --fundo-cabecalho: #05152b; /* cabeçalho, títulos */
+        --texto-cabecalho: #7992B5; /* texto EM CIMA dela */
+
+        --card: #233520; /* cartões, conteúdo */
+        --texto-card: #A9C1A5; /* textos do card, destaques */
+
+        --apoio: #42523F; /* botões, destaques */
+        --texto-apoio: #A2CA9B; /* botões, destaques */
+
+        --fundo: #020D1C; /* o fundo da página */
+        --texto: #D4E6FF; /* a cor das letras */
+
+    /* fontes */
+
+        --fonte_principal: normal normal 400 1rem "Inter Tight", "Arial" , "sans-serif";
+        --fonte_secundaria: normal normal 400 1rem "Saira", "Arial" , "sans-serif";
+
+}

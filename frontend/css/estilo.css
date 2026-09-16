@@ -1,32 +1,18 @@
-/* no TOPO do arquivo, antes de qualquer regra */
+/*formatações*/
+/*
+--------------------------------------------------------------------------
+    3.   Página e conteúdo — Isabella Oliveira
+    4.   Cabeçalho e menu — Thiago Hermont
+    5.   Tabela — Arthur Henrique
+    6.   Formulário e rodapé — Guilherme Rocha
+-------------------------------------------------------------------------- 
+*/
     * {
         padding: 0rem;
         margin: 0rem;
         gap: 0rem;
         box-sizing: border-box;
     }
-    :root {
-        /* cores do tema claro */
-            --fundo-cabecalho: #ddeec4; /* cabeçalho, títulos */
-            --texto-cabecalho: #374D12; /* texto EM CIMA dela */
-
-            --card: #96b4c8; /* cartões, conteúdo */
-            --texto-card: #223C4D; /* textos do card, destaques*/
-
-            --apoio: #2B6770; /* botões, destaques */
-            --texto-apoio: #E4F0F2; /* botões, destaques */
-
-            --fundo: #f6fdeb; /* o fundo da página */
-            --texto: #213303; /* a cor das letras */
-
-        /* fontes */
-
-            --fonte_principal: normal normal 400 1rem "Inter Tight", "Arial" , "sans-serif";
-            --fonte_secundaria: normal normal 400 1rem "Saira", "Arial" , "sans-serif";
-
-    }
-
-/*formatações*/
 
     body {
         background-color: var(--fundo);
@@ -131,14 +117,10 @@
     }
     /* para rolagem horizontal em dispositivos moveis */
     .table-container {
-        overflow-x: auto; 
+        overflow-x: auto;
     }
-
     table {
-       font-family:
-         var(--fonte-principal),
-         var(--fonte-secundaria),
-       sans-serif;
+       font: var(--fonte-principal);
        text-align: center;
        border-collapse: collapse;
        width: 70%;
@@ -147,12 +129,12 @@
     }
    
     caption {
+       font-family: var(--fonte-principal);
        caption-side: top;
        font-weight: bold;
        text-transform: uppercase;
        text-align: center;
        margin: auto;
-       font-family: var(--fonte_principal);
     }
     
     th, td {
@@ -184,25 +166,26 @@
       background-color: var(--apoio);
       color: var(--texto-apoio);
     }
-    /* testes claro */
 
-    .principal-claro{
+/*testes */
+    .principal{
         background-color: var(--fundo-cabecalho);
         color: var(--texto-cabecalho);
         text-align: center;
     }
-    .apoio-claro{
+    .apoio{
         background-color: var(--apoio);
         color: var(--texto-apoio);
     }
-    .fundo-pag-claro{
+    .fundo-pag{
         background-color: var(--fundo);
         color: var(--texto);
     }
-    .superficie-claro{
+    .superficie{
         background-color: var(--card);
         color: var(--texto-card);
     }
+
 
 .logos{
     height: auto;

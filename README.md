@@ -14,6 +14,10 @@ Assunto: Site para unificação de informações de progressos academicos e tril
 
 Assunto: Nosso site tem o objetivo de unificar informações academicas em um so lugar, facilitanto o acesso da trilha de aprendizado para o aluno.
 
+## Identidade visual
+
+A documentação sobre a identidade visual está em um pdf em /frontend/img/documentacao/Identidade_visual
+
 ## Equipe
 
 **Líder:** Thiago Hermont Siqueira
