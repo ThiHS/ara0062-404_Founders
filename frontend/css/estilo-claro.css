@@ -1,0 +1,164 @@
+/* no TOPO do arquivo, antes de qualquer regra */
+    * {
+        padding: 0rem;
+        margin: 0rem;
+        gap: 0rem;
+        box-sizing: border-box;
+    }
+    :root {
+        /* cores do tema claro */
+            --fundo-cabecalho: #ddeec4; /* cabeçalho, títulos */
+            --texto-cabecalho: #374D12; /* texto EM CIMA dela */
+
+            --card: #96b4c8; /* cartões, conteúdo */
+            --texto-card: #223C4D; /* textos do card, destaques*/
+
+            --apoio: #2B6770; /* botões, destaques */
+            --texto-apoio: #E4F0F2; /* botões, destaques */
+
+            --fundo: #f6fdeb; /* o fundo da página */
+            --texto: #213303; /* a cor das letras */
+
+        /* fontes */
+
+            --fonte_principal: normal normal 400 1rem "Inter Tight", "Arial" , "sans-serif";
+            --fonte_secundaria: normal normal 400 1rem "Saira", "Arial" , "sans-serif";
+
+    }
+
+/*formatações*/
+
+    body {
+        background-color: var(--fundo);
+        font: var(--fonte_principal);
+    }
+
+    header {
+        margin: 0;
+        padding: 0%;
+
+        background-color: var(--fundo-cabecalho);
+        color: var(--texto-cabecalho);
+        font: var(--fonte_secundaria);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+
+    nav {
+        background-color: var(--apoio);
+
+    }
+
+    main {
+        margin: 0;
+        padding: 0;
+        background-color: var(--fundo);
+        color: var(--texto);
+    }
+    section {
+        margin: 0;
+        padding: 0;
+        background-color: var(--fundo);
+        color: var(--texto);
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        text-align: left;
+        list-style: none;
+
+        background-color: var(--card);
+        color: var(--texto-card);
+
+        font-size: 1rem;
+        gap: 15px
+    }
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 2.25rem;
+    }
+    h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 1.75rem;
+    }
+    h3 {
+        margin: 0;
+        padding: 0;
+        font-size: 1.25rem;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+        color: var(--texto);
+    }
+    a {
+        text-decoration: none;
+        color: var(--texto-apoio);
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        user-select: none;
+        
+
+        /* Estilização da Base */
+        background-color: var(--apoio); /* Sem fundo */
+        border: 1px solid transparent; /* Borda invisível (mas existente para manter o tamanho) */
+        padding: 0.375rem 0.75rem; /* Espaçamento interno padrão */
+        font-size: 1rem;
+        border-radius: 0.375rem; /* Cantos arredondados */
+
+        /* Efeito de Transição Suave */
+        transition: color 0.15s ease-in-out; 
+        background-color: 0.15s ease-in-out; 
+        border-color: 0.15s ease-in-out; 
+        box-shadow: 0.15s ease-in-out;
+    }
+    img {
+        height: auto;
+        max-width: 100%;
+        display: flex;
+    }
+    /* testes claro */
+
+    .principal-claro{
+        background-color: var(--fundo-cabecalho);
+        color: var(--texto-cabecalho);
+        text-align: center;
+    }
+    .apoio-claro{
+        background-color: var(--apoio);
+        color: var(--texto-apoio);
+    }
+    .fundo-pag-claro{
+        background-color: var(--fundo);
+        color: var(--texto);
+    }
+    .superficie-claro{
+        background-color: var(--card);
+        color: var(--texto-card);
+    }
+
+.logos{
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+
+.miniL{
+    height: auto;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px; 
+}

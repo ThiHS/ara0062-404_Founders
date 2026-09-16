@@ -8,7 +8,11 @@ e PHP** — Centro Universitário Newton Paiva, 2026/2.
 
 ## Tema do projeto
 
-Site para unificação de informações de progressos academicos e trilha educacional. 
+Assunto: Site para unificação de informações de progressos academicos e trilha educacional. 
+
+## Sobre o projeto
+
+Assunto: Nosso site tem o objetivo de unificar informações academicas em um so lugar, facilitanto o acesso da trilha de aprendizado para o aluno.
 
 ## Equipe
 
