@@ -185,9 +185,18 @@
     
     input {
         border-radius: 5rem;
-        width:20rem;  
+        width:20rem;
+        
         
     }
+
+    input:focus {
+
+        background-color:var(--apoio);
+
+    }
+
+    
 
 
     span{
@@ -202,6 +211,22 @@
 
 
         
+    }
+
+    footer {
+        background-color: var(--apoio) ;
+        display:flex;
+        flex-direction: column;
+        height: 12rem;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    p {
+
+        color: var(--texto-apoio);
+
     }
 
 /*testes */
