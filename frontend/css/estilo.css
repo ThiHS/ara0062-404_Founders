@@ -167,36 +167,73 @@
       color: var(--texto-apoio);
     }
 
+    form {
+        background-color: var(--card) ;
+        background-size: 2rem;
+        display:flex;
+        background-position-x: center;
+        background-position-y: center;
+        flex-direction: column;
+        align-items: center;
+        width:30rem;
+        margin:auto;
+        border-radius: 2rem;
+        color: var(--texto-card);
+        gap: 1rem;
+
+    }
+    
+    input {
+        border-radius: 5rem;
+        width:20rem;  
+        
+    }
+
+
+    span{
+        color:var(--texto-card);
+    }
+
+    
+
+    legend {
+        display: flex;
+        justify-content: center;
+
+
+        
+    }
+
 /*testes */
-    .principal{
+    .principal {
         background-color: var(--fundo-cabecalho);
         color: var(--texto-cabecalho);
         text-align: center;
     }
-    .apoio{
+    .apoio {
         background-color: var(--apoio);
         color: var(--texto-apoio);
     }
-    .fundo-pag{
+    .fundo-pag {
         background-color: var(--fundo);
         color: var(--texto);
     }
-    .superficie{
+    .superficie {
         background-color: var(--card);
         color: var(--texto-card);
     }
 
 
-.logos{
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;  
-}
+    .logos {
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;  
+    }
 
-.miniL{
-    height: auto;
-    width: 100px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px; 
-}
+    .miniL {
+        height: auto;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px; 
+    }
