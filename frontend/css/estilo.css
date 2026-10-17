@@ -23,6 +23,8 @@
         --fonte_principal: normal normal 400 1rem "Inter Tight", "Arial" , "sans-serif";
         --fonte_secundaria: normal normal 400 1rem "Saira", "Arial" , "sans-serif";
 
+        --espaco: clamp(1rem, 3vw, 2.5rem);
+
 }
 
 
@@ -63,6 +65,33 @@
     nav {
         background-color: var(--apoio);
 
+    }
+
+        .botao-cadastro {
+        background-color: var(--card);
+        align-items: left;
+        align-content: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .voltar-cadastro {
+        background-color: var(--card);
+        align-items: left;
+        align-content: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .cad-disciplina {
+        background-color: var(--card);
+        align-items: left;
+        align-content: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
     }
 
     main {
@@ -195,7 +224,7 @@
       color: var(--texto-apoio);
     }
 
-    form {
+   #formulario1 {
         background-color: var(--card) ;
         background-size: 2rem;
         display:flex;
@@ -290,3 +319,281 @@
         margin-left: 10px;
         margin-bottom: 10px; 
     }
+
+     /*Aba de cadastro*/
+
+.cadastro-layout {
+    flex: 1 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--espaco);
+    padding: var(--espaco);
+    width: 100%;
+    max-width: 90rem;
+    margin-inline: auto;
+}
+
+/* Metade esquerda da aba cadastro*/
+
+article {
+    flex: 1 1 24rem;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    background-color: var(--fundo);
+}
+
+.slogan-cadastro {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0;
+    position: relative;
+}
+
+.frase-cadastro {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 1rem 0 2rem 0;
+    width: 100%;
+    max-width: 30rem;
+    position: relative;
+}
+
+.logo-cadastro {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    max-width: 30rem;
+    background-color: var(--fundo);
+    height: auto;
+    overflow: hidden;
+}
+
+.logo-cadastro img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.redirect-login {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 2rem 0 0 0;
+    position: relative;
+    border: none;
+}
+
+.botao-login {
+    background-color: var(--fundo);
+    align-items: left;
+    align-content: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: -6rem;
+    height: auto;
+    width: 20rem;
+}
+
+
+
+/* Metade direita com o formulário */
+
+#cadastro {
+    flex: 1 1 24rem;
+    min-width: 0;
+    max-width: 36rem;
+    margin: 0 auto;
+    background-color: var(--fundo);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Formulário de cadastro */
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    background-color: var(--card);
+    color: var(--texto-card);
+    padding: clamp(1rem, 3vw, 1.5rem);
+    border-radius: 0.5rem;
+    border-top: 4px solid var(--texto-card);
+}
+
+fieldset {
+    min-width: 0;
+    border: 1px solid var(--texto-card);
+    border-radius: 6px;
+    background-color: var(--fundo);
+    padding: 18px 20px 6px;
+    margin-bottom: 0;
+}
+
+legend {
+    color: var(--texto-card);
+    font-weight: 600;
+    padding: 0 8px;
+}
+
+form div {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    margin-bottom: 5px;
+}
+
+/* Seletor de atributo: escolhe o input pelo type.
+   Sem isso, "input { width: 100% }" esticaria também o checkbox. */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--texto-card);
+    border-radius: 4px;
+
+    /* Sem estas duas linhas o campo fica com o branco de fábrica do
+       navegador — e no tema escuro isso vira texto claro sobre fundo
+       branco, ou seja, invisível. */
+
+    background-color: var(--fundo-cabecalho);
+    color: var(--texto-card);
+
+    /* Campo de formulário não herda a fonte do body — tem de pedir. */
+
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 7.5rem;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+input[type="checkbox"] + label {
+    display: inline;
+    font-weight: 400;
+}
+
+/* :focus é acessibilidade, não enfeite: é como quem navega por Tab sabe
+   onde está. Nunca apague o contorno sem pôr outra marca no lugar. */
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 3px solid var(--texto-apoio);
+    outline-offset: 1px;
+    border-color: var(--texto-card);
+}
+
+form > div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+form > div:last-child .aviso {
+    flex: 1 1 100%;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: var(--fundo-cabecalho);
+    color: var(--texto-card);
+    outline: 1px solid var(--texto-card);
+}
+
+button[type="submit"]:hover {
+    background-color: var(--texto-card);
+    color: var(--card);
+}
+
+button[type="reset"] {
+    background-color: var(--fundo-cabecalho);
+    color: var(--texto-card);
+    border: 1px solid var(--texto-card);
+    margin-left: 0;
+}
+
+button:focus {
+    outline: 3px solid var(--texto-card);
+    outline-offset: 2px;
+}
+
+@media (max-width: 30rem) {
+    fieldset {
+        padding: 14px 12px 4px;
+    }
+
+    form > div:last-child button {
+        flex: 1 1 100%;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+
+#erro-matricula {
+    color: var(--texto);
+    display: none;
+}
+
+
+
+/* Aba de cadastro de disciplinas */
+
+#cadastro-disciplina {
+    flex: 1 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--espaco);
+    padding: var(--espaco);
+    width: 100%;
+    max-width: 90rem;
+    margin-inline: auto;
+}
+
+.titulo-cad-disciplina {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#checklist-materia {
+    display: none;
+}

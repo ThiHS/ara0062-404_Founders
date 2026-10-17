@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studytree</title>
+    <link rel="icon" type="image/png-icon" href="img/logos/five.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+       
+    <link rel="stylesheet" href="css/tema-escuro.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="my-auto">StudyTree</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <button class="voltar-cadastro"><a href="index.html">Voltar à Página Inicial</a></button>
+            <button class="botao-cadastro"><a href="cad_usuario.html">Cadastre-se Aqui!</a></button>
+        </ul>
+    </nav>
+    
+    <main class="cadastro-layout">
+
+    <article>
+
+        <section class="titulo-cad-disciplina">
+            <h2>Cadastre uma Disciplina</h2>
+        </section>
+        <section class="subtitulo-cad-disciplina">
+            <h3>Preencha com atenção os dados da disciplina que deseja cadastrar.</h3>
+        </section>
+
+    </article>
+
+    <section id="cadastro-disciplina">
+
+        <form action="#" method="post" id="form-disciplina">
+          <fieldset>
+            <legend>Preencha os campos abaixo:</legend>
+
+            <div>
+              <label for="nome">Nome da Disciplina</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div class="checklist-curso">
+            <h4>Curso(s) relacionado(s):</h4>
+            <input type="checkbox" id="cc" name="ciencia da computacao">
+            <label for="cc">Ciência da Computação</label>
+            </div>
+
+            <div class="checklist-curso">
+            <input type="checkbox" id="es" name="engenharia de software">
+            <label for="es">Engenharia de Software</label>
+            </div>
+
+            <div class="checklist-curso">
+            <input type="checkbox" id="si" name="sistemas da informacao">
+            <label for="si">Sistemas da Informação</label>
+            </div>
+
+            <div id="req-materia">
+              <label for="requisito">Essa disciplina possui pré-requisitos para ser cursada?</label>
+              <select id="requisito" onchange="verificarResposta()">
+                <option value="">Selecione...</option>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+              </select>
+            </div>
+
+            <div id="checklist-materia">
+
+                <h4>Matérias necessárias:</h4>
+                <div class="checklist-item">
+                <input type="checkbox" id="calc1" name="calc1">
+                <label for="calc1">Cálculo 1</label>
+                </div>
+
+                <div class="checklist-item">
+                <input type="checkbox" id="calc2" name="calc2">
+                <label for="calc2">Cálculo 2</label>
+                </div>
+
+                <div class="checklist-item">
+                <input type="checkbox" id="bd" name="bd">
+                <label for="bd">Banco de Dados</label>
+                </div>
+
+            </div> 
+
+            <div class="descricao">
+
+            <label for="desc">Descrição</label>
+            <textarea id="desc" name="desc" rows="5" cols="40" required></textarea>
+
+            </div>
+
+          </fieldset>
+
+          <div>
+            <button type="submit" id="cadastrar-disc">Cadastrar</button>
+            <button type="reset">Limpar</button>
+            <h4 id="aviso" class="aviso" aria-live="polite"></h4>
+          </div>
+        </form>
+      </section>
+    
+    </main>

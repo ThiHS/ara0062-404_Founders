@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studytree</title>
+    <link rel="icon" type="image/png-icon" href="img/logos/five.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+       
+    <link rel="stylesheet" href="css/tema-escuro.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="my-auto">StudyTree</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <button class="cad-disciplina"><a href="cad_disciplina.html">Cadastrar disciplinas</a></button>
+            <button class="voltar-cadastro"><a href="index.html">Voltar à Página Inicial</a></button>
+        </ul>
+    </nav>
+
+        <main class="cadastro-layout">
+
+    <article>
+
+        <section class="slogan-cadastro">
+            <h2>Faça parte da nossa comunidade!</h2>
+        </section>
+        <section class="frase-cadastro">
+            <h3>Cadastre-se e tenha acesso a uma plataforma de estudos completa, com recursos interativos, materiais de qualidade e uma comunidade engajada. Junte-se a nós e potencialize seu aprendizado!</h3>
+        </section>
+        <div class="logo-cadastro">
+            <img src="img/logos/logo-clara.png" alt="Logo">
+        </div>
+        <section class="redirect-login">
+            <h2>Já tem uma conta? <br> <button class="botao-login"><a href="login.html">Faça login aqui</a></button></h2>
+        </section>
+
+    </article>
+
+ <section id="cadastro">
+
+        <form action="#" method="post" id="form">
+          <fieldset>
+            <legend>Preencha seus dados abaixo:</legend>
+
+            <div>
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div>
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+             <div>
+              <label for="telefone">Telefone</label>
+              <input type="text" placeholder="(00) 00000-0000" maxlength="15" id="telefone" name="telefone" required>
+            </div>
+
+             <div>
+              <label for="matricula">Número de matrícula</label>
+              <input type="tel" id="matricula" maxlength="12" placeholder="000000000000" required>
+            <span id="erro-matricula"><br>A matrícula deve ter exatamente 12 números.</span>
+            </div>
+
+            <div>
+              <label for="curso">Curso</label>
+              <select id="curso" name="curso">
+                <option value="Ciência da Computação">Ciência da Computação</option>
+                <option value="Engenharia de Software">Engenharia de Software</option>
+                <option value="Sistemas de Informação">Sistemas de Informação</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" cols="40" required></textarea>
+            </div>
+
+            <div>
+              <input type="checkbox" id="copia" name="copia" value="sim">
+              <label for="copia">Quero receber uma cópia desta mensagem</label>
+            </div>
+          </fieldset>
+
+          <div>
+            <button type="submit" id="enviar">Enviar</button>
+            <button type="reset">Limpar</button>
+            <h4 id="aviso" class="aviso" aria-live="polite"></h4>
+          </div>
+        </form>
+      </section>
+      </main>
