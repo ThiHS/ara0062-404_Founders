@@ -38,6 +38,7 @@ CREATE TABLE IF NOT EXISTS `studytree`.`usuario` (
   `nome` VARCHAR(80) NOT NULL,
   `email` VARCHAR(230) NOT NULL,
   `telefone` VARCHAR(30) NULL,
+  `senha` VARCHAR(32) NOT NULL,
   PRIMARY KEY (`num_matricula`))
 ENGINE = InnoDB;
 
