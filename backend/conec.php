@@ -47,7 +47,7 @@ function bd_insert($sql, $params = []) {
     return $pdo->lastInsertId();
 }
 
-// UPDATE, DELETE E OUTROS COMANDOS
+// UPDATE, DELETE E OUTROS COMANDOS, RETORNANDO A QUANTIDADE DE LINHAS AFETADAS
 function bd_execute($sql, $params = []) {
     global $pdo;
 
