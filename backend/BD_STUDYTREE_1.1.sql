@@ -24,7 +24,7 @@ USE `studytree` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `studytree`.`cursos` (
   `id_curso` INT UNSIGNED NOT NULL AUTO_INCREMENT,
-  `nome` VARCHAR(80) NOT NULL,
+  `nome` VARCHAR(80) NOT NULL UNIQUE,
   `descricao` VARCHAR(300) NULL,
   PRIMARY KEY (`id_curso`))
 ENGINE = InnoDB;
